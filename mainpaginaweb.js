@@ -28,3 +28,6 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
 })
+function abrir_cerrar_menu(){
+    document.getElementById("menu").classList.toggle("abrir_menu");
+}
